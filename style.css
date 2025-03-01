@@ -1,0 +1,76 @@
+@font-face {
+    font-family:like;
+    src: url('oyeea.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: product sans;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    gap: 10vh;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 150vh;
+    background-color: #202020;
+}
+
+.cards {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.cards h3{
+    font-size: 8rem;
+    font-family: like;
+    font-weight: 500;
+    color: white;
+    text-shadow: .1em .1em 0 hsl(200 50% 30%);
+}
+#card-one {
+    top: 130%;
+    background-color:#7ce8ff;
+}
+
+#card-two {
+    top: 230%;
+    background-color:#55d0ff;
+}
+
+#card-three {
+    top: 250%;
+    background-color:#00acdf;
+}
+
+.text{
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text h1{
+    font-size: 5vw;
+    color: #fff;
+    text-align: center;
+}
+
